@@ -17,7 +17,7 @@ export default class body extends Component {
             <div className="progress">
               <div className='health-claim'>
                 <Icon className='arrow-icon' icon="material-symbols:arrow-back-rounded" width={22} hFlip={true} />
-                <p className='health-claim-heading'>health insurance claim</p>
+                <p className='health-claim-heading'>Health Insurance Claim</p>
                 <p className='health-number'>43782674567</p>
                 <Icon className='health-dollar' icon="twemoji:heavy-dollar-sign" width={20} height={18} />
                 <span className='health-insurance-amount'>2347.08</span>
@@ -40,22 +40,22 @@ export default class body extends Component {
               </div>
               <div className='car-claim'>
                 <Icon className='arrow-icon' icon="material-symbols:arrow-back-rounded" width={22} hFlip={true} />
-                <p className='health-claim-heading'>Car insurance claim</p>
+                <p className='health-claim-heading'>Car Insurance Claim</p>
                 <p className='health-number'>7293749392002</p>
                 <Icon className='health-dollar' icon="twemoji:heavy-dollar-sign" width={20} height={18} />
                 <span className='health-insurance-amount'>2347.08</span>
-                <div className="progress-track">
-                  <ul id="progressbar">
-                    <li className="step0 active " id="step1">
+                <div className="progress-track-car">
+                  <ul id="progressbarCar">
+                    <li className="step0 active " id="step1Car">
                       Initiated
                     </li>
-                    <li className="step0 active text-center" id="step2">
+                    <li className="step0 active text-center" id="step2Car">
                       Verified
                     </li>
-                    <li className="step0 active text-right" id="step3">
+                    <li className="step0 active text-right" id="step3Car">
                       <span id="three">Processing</span>
                     </li>
-                    <li className="step0 text-right" id="step4">
+                    <li className="step0 text-right" id="step4Car">
                       Settled
                     </li>
                   </ul>

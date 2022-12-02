@@ -1,12 +1,29 @@
 .section-container {
   display: flex;
 }
-
+.Notification-bell{
+  margin-bottom: 2.2vh;
+  color:rgb(156, 156, 156);
+}
+.setting-icon{
+  margin-bottom: 2.2vh;
+  color:rgb(156, 156, 156);
+  margin-left: 2vh;
+}
+.title-heading{
+  font-family: 'Nunito', sans-serif;
+  margin-top: 2.5vh;
+  color: rgb(63, 129, 228);
+  position: absolute;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
 .container {
   display: flex;
   height: 3.4rem;
   border-bottom: 1px solid rgb(206, 204, 204);
   justify-content: space-between;
+
 }
 
 .display-container {
@@ -272,6 +289,7 @@
   font-size: 1.1rem;
 }
 #progressbar {
+  color: rgb(141, 139, 139);
   overflow: hidden;
   /* color: $progress-color; */
   padding-left: 0px;
@@ -386,15 +404,17 @@
 }
 
 /* -------car symbol-------------------- */
-#progressbar{
+
+#progressbarCar{
   overflow: hidden;
   /* color: $progress-color; */
   padding-left: 0px;
   margin-top: 0.5vh;
   width: 25vh;
+  margin-left: 2vh;
 }
 
-#progressbar li {
+#progressbarCar li {
   list-style-type: none;
   font-size: 8px;
   width: 25%;
@@ -404,7 +424,7 @@
   /* color: $icon-color; */
 }
 
-#progressbar #step1:before {
+#progressbarCar #step1Car:before {
   content: "";
   /* color: $progress-color; */
   width: 8px;
@@ -414,27 +434,27 @@
   z-index: 1;
 }
 
-#progressbar #step2:before {
+#progressbarCar #step2Car:before {
   content: "";
   /* color: $progress-color; */
   width: 8px;
   height: 8px;
-  margin-left: 32%;
+  margin-left: 32% !important;
   margin-top: 12%;
   z-index: 1;
 }
 
-#progressbar #step3:before {
+#progressbarCar #step3Car:before {
   content: "";
   /* color: $progress-color; */
   width: 8px;
   height: 8px;
-  margin-right: 32%;
+  margin-right: 32% !important;
   margin-top: 12%;
   z-index: 1;
 }
 
-#progressbar #step4:before {
+#progressbarCar #step4Car:before {
   content: "";
   color: rgb(151, 149, 149, 0.651);
   width: 8px;
@@ -444,7 +464,7 @@
   z-index: 1;
 }
 
-#progressbar li:before {
+#progressbarCar li:before {
   line-height: 29px;
   display: block;
   font-size: 8px;
@@ -455,7 +475,7 @@
   margin-bottom: 2px;
 }
 
-#progressbar li:after {
+#progressbarCar li:after {
   content: "";
   height: 3px;
   background: rgb(151, 149, 149, 0.651);
@@ -469,26 +489,25 @@
 .progress-track {
   padding: 0 8%;
 }
-#progressbar li:nth-child(2):after {
+#progressbarCar li:nth-child(2):after {
   margin-right: auto;
 }
 
-#progressbar li:nth-child(1):after {
+#progressbarCar li:nth-child(1):after {
   margin: auto;
+  background:rgb(87, 223, 160);
+}
+#progressbarCar li:nth-child(1):before{
+  background:rgb(87, 223, 160);
 }
 
-#progressbar li:nth-child(3):after {
+#progressbarCar li:nth-child(3):after {
   float: left;
   width: 68%;
 }
-#progressbar li:nth-child(4):after {
+#progressbarCar li:nth-child(4):after {
   margin-left: auto;
   width: 132%;
-}
-
-#progressbar li.active:before,
-#progressbar li.active:after {
-  background:rgb(87, 223, 160);
 }
 
 #three {
