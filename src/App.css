@@ -1,38 +1,683 @@
-.App {
+.section-container {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  height: 3.4rem;
+  border-bottom: 1px solid rgb(206, 204, 204);
+  justify-content: space-between;
+}
+
+.display-container {
+  display: inline-flex;
+  flex-direction: column;
+  height: 92vh;
+  width: 36vh;
+  border-right: 1px solid rgb(206, 204, 204);
+  padding-left: 4vh;
+}
+
+.dashboard-container {
+  display: block;
+  height: 7vh;
+}
+
+.board-icon {
+  margin-right: 1vh;
+  margin-top: 4vh;
+  padding-top: 5px;
+  color: blue;
+  border-radius: 10px;
+  margin-bottom: 2.5vh;
+}
+
+.board-text {
+  color: rgb(59, 58, 58);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  position: absolute;
+  margin-top: 5vh;
+  margin-left: 2vh;
+  font-size: 0.9rem;
+}
+
+.dashboard-icon {
+  margin-right: 2vh;
+  padding-top: 5px;
+  position: absolute;
+  color: rgb(180, 176, 176);
+}
+
+.icon-text {
+  padding-left: 6.5vh;
+  font-size: 0.85rem;
+  padding-top: 1vh;
+  position: absolute;
+  color: rgb(141, 139, 139);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+.dashboard-icon-payment {
+  margin-right: 2vh;
+  padding-top: 5px;
+  position: absolute;
+  background-color: rgb(180, 176, 176);
+  color: white;
+
+}
+
+.dashboard-bottom-section {
+  margin-top: 8vh;
+}
+
+.topup-heading {
+  margin-bottom: 0px;
+  color: rgb(59, 58, 58);
+  font-family: 'Nunito', sans-serif;
+}
+
+.top-up-content {
+  margin-top: 9px;
+  color: rgb(141, 139, 139);
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+.add-money {
+  background-color: rgb(244, 248, 249);
+  width: 33vh;
+  height: 20vh;
+}
+
+.option {
+  float: right;
+  margin-right: 2vh;
+  margin-top: 1vh;
+
+}
+
+.current-balance-heading {
+  font-family: 'Nunito', sans-serif;
+  margin-left: 2vh;
+  color: rgb(95, 94, 94);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.balance {
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-left: 6vh;
+  color: rgb(40, 40, 40);
+}
+
+.balance-container {
+  margin-top: 0px;
+}
+
+.dollar {
+  margin-top: 5px;
+  position: absolute;
+  margin-left: 1vh;
+  color: rgb(40, 40, 40);
+}
+
+.add-money-button {
+  margin-top: 1vh;
+  margin-left: 2vh;
+  font-family: 'Nunito', sans-serif;
+  width: 25vh;
+  height: 5vh;
+  color: white;
+  border-color: rgb(41, 111, 251);
   text-align: center;
+  background-color: rgb(41, 111, 251);
+  border-radius: 3px;
+  border: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* -------------body-section */
+
+.body-container {
+  height: 92vh;
+  width: 124.5vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.insurance-heading {
+  width: 124.4vh;
+  height: 27vh;
+  margin-bottom: 0px;
+  border-bottom: 1px solid rgb(206, 204, 204);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-section-body {
+  display: flex;
+}
+
+.current-claim-section {
+  width: 80vh;
+  height: 64vh;
+  border-right: 1px solid rgb(206, 204, 204);
+}
+
+.claim-heading {
+  margin-left: 4vh;
+  color: rgb(59, 58, 58);
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 0px;
+  margin-top: 1rem;
+}
+
+.claim-status {
+  margin-left: 4vh;
+  margin-top: 5px;
+  font-size: 0.85rem;
+  color: rgb(141, 139, 139);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.progress-done {
+  margin-left: 4vh;
+  width: 75vh;
+  height: 22vh;
+  margin-top: 0px;
+
+}
+
+.progress {
+  border-bottom: 1px solid rgb(206, 204, 204);
+  height: 22.5vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.health-claim {
+  width: 33vh;
+  height: 16.4vh;
+  border-radius: 3px;
+  font-family: 'Nunito', sans-serif;
+  border-top: 3px solid green;
+  padding-bottom: 0px;
+  box-shadow:
+  0 0px 0px hsl(0deg 0% 0% / 0.075),
+  0 1px 1px hsl(0deg 0% 0% / 0.075),
+  0 2px 2px hsl(0deg 0% 0% / 0.075),
+  0 8px 8px rgba(202, 200, 200, 0.075),
+  0 8px 8px rgba(179, 178, 178, 0.075);
+
+}
+
+.car-claim {
+  width: 33vh;
+  height: 16.4vh;
+  font-family: 'Nunito', sans-serif;
+  border-top: 3px solid purple;
+  border-radius: 3px;
+  box-shadow:
+  0 0px 0px hsl(0deg 0% 0% / 0.075),
+  0 1px 1px hsl(0deg 0% 0% / 0.075),
+  0 2px 2px hsl(0deg 0% 0% / 0.075),
+  0 8px 8px rgba(202, 200, 200, 0.075),
+  0 8px 8px rgba(179, 178, 178, 0.075);
+}
+
+.arrow-icon {
+  margin-top: 7px;
+  float: right;
+  color: gray;
+  display: inline;
+  margin-right: 2vh;
+}
+
+.health-claim-heading {
+  position: absolute;
+  margin-top: 1.5vh;
+  color: rgb(141, 139, 139);
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.75rem;
+  margin-bottom: 5px;
+  margin-left: 2vh;
+}
+.health-number{
+  color: rgb(59, 58, 58);
+  font-family: 'Nunito', sans-serif;
+  margin-top: 4vh;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 2vh;
+  margin-bottom: 3px;
+}
+.health-dollar{
+  margin-left: 1vh;
+  margin-top: 2px;
+}
+.health-insurance-amount{
+  margin-left: 4px;
+  margin-top: 0px;
+  position: absolute;
+  color: rgb(12, 12, 12);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+#progressbar {
+  overflow: hidden;
+  /* color: $progress-color; */
+  padding-left: 0px;
+  margin-top: 0.5vh;
+  width: 25vh;
+}
+
+#progressbar li {
+  list-style-type: none;
+  font-size: 8px;
+  width: 25%;
+  float: left;
+  position: relative;
+  font-weight: 300;
+  /* color: $icon-color; */
+}
+
+#progressbar #step1:before {
+  content: "";
+  /* color: $progress-color; */
+  width: 8px;
+  height: 8px;
+  margin-left: 0px !important;
+  margin-top: 12%;
+  z-index: 1;
+}
+
+#progressbar #step2:before {
+  content: "";
+  /* color: $progress-color; */
+  width: 8px;
+  height: 8px;
+  margin-left: 32%;
+  margin-top: 12%;
+  z-index: 1;
+}
+
+#progressbar #step3:before {
+  content: "";
+  /* color: $progress-color; */
+  width: 8px;
+  height: 8px;
+  margin-right: 32%;
+  margin-top: 12%;
+  z-index: 1;
+}
+
+#progressbar #step4:before {
+  content: "";
+  color: rgb(151, 149, 149, 0.651);
+  width: 8px;
+  height: 8px;
+  margin-right: 0px !important;
+  margin-top: 12%;
+  z-index: 1;
+}
+
+#progressbar li:before {
+  line-height: 29px;
+  display: block;
+  font-size: 8px;
+  background: rgb(151, 149, 149);
+  border-radius: 50%;
+  margin: auto;
+  z-index: -1;
+  margin-bottom: 2px;
+}
+
+#progressbar li:after {
+  content: "";
+  height: 3px;
+  background: rgb(151, 149, 149, 0.651);
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  margin-bottom: 2vh;
+  top: 8px;
+  z-index: 1;
+}
+.progress-track {
+  padding: 0 8%;
+}
+#progressbar li:nth-child(2):after {
+  margin-right: auto;
+}
+
+#progressbar li:nth-child(1):after {
+  margin: auto;
+}
+
+#progressbar li:nth-child(3):after {
+  float: left;
+  width: 68%;
+}
+#progressbar li:nth-child(4):after {
+  margin-left: auto;
+  width: 132%;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background:rgb(87, 223, 160);
+}
+
+#three {
+  font-size: 8px;
+  color: black;
+}
+
+#step4 {
+  text-align: right;
+}
+
+/* -------car symbol-------------------- */
+#progressbar{
+  overflow: hidden;
+  /* color: $progress-color; */
+  padding-left: 0px;
+  margin-top: 0.5vh;
+  width: 25vh;
+}
+
+#progressbar li {
+  list-style-type: none;
+  font-size: 8px;
+  width: 25%;
+  float: left;
+  position: relative;
+  font-weight: 300;
+  /* color: $icon-color; */
+}
+
+#progressbar #step1:before {
+  content: "";
+  /* color: $progress-color; */
+  width: 8px;
+  height: 8px;
+  margin-left: 0px !important;
+  margin-top: 12%;
+  z-index: 1;
+}
+
+#progressbar #step2:before {
+  content: "";
+  /* color: $progress-color; */
+  width: 8px;
+  height: 8px;
+  margin-left: 32%;
+  margin-top: 12%;
+  z-index: 1;
+}
+
+#progressbar #step3:before {
+  content: "";
+  /* color: $progress-color; */
+  width: 8px;
+  height: 8px;
+  margin-right: 32%;
+  margin-top: 12%;
+  z-index: 1;
+}
+
+#progressbar #step4:before {
+  content: "";
+  color: rgb(151, 149, 149, 0.651);
+  width: 8px;
+  height: 8px;
+  margin-right: 0px !important;
+  margin-top: 12%;
+  z-index: 1;
+}
+
+#progressbar li:before {
+  line-height: 29px;
+  display: block;
+  font-size: 8px;
+  background: rgb(151, 149, 149);
+  border-radius: 50%;
+  margin: auto;
+  z-index: -1;
+  margin-bottom: 2px;
+}
+
+#progressbar li:after {
+  content: "";
+  height: 3px;
+  background: rgb(151, 149, 149, 0.651);
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  margin-bottom: 2vh;
+  top: 8px;
+  z-index: 1;
+}
+.progress-track {
+  padding: 0 8%;
+}
+#progressbar li:nth-child(2):after {
+  margin-right: auto;
+}
+
+#progressbar li:nth-child(1):after {
+  margin: auto;
+}
+
+#progressbar li:nth-child(3):after {
+  float: left;
+  width: 68%;
+}
+#progressbar li:nth-child(4):after {
+  margin-left: auto;
+  width: 132%;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background:rgb(87, 223, 160);
+}
+
+#three {
+  font-size: 8px;
+  color: black;
+}
+
+#step4 {
+  text-align: right;
+}
+
+.bottomDivider {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.consutlations {
+  margin-bottom: 0px;
+  color: rgb(59, 58, 58);
+  font-family: 'Nunito', sans-serif;
+  margin-left: 4vh;
+  margin-top: 2rem;
+}
+
+.consutlation-content {
+  margin-top: 5px;
+  margin-left: 4vh;
+  font-size: 0.85rem;
+  color: rgb(141, 139, 139);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80vh;
+  height: 20vh;
+
+}
+
+.lab-image {
+  width: 21vh;
+  height: 19vh;
+}
+
+.doctor-image {
+  width: 21vh;
+  height: 19vh;
+
+}
+
+.therapy-image {
+  width: 21vh;
+  height: 19vh;
+}
+
+.activityfeed-section {
+  width: 44vh;
+  height: 64vh;
+}
+
+.activityfeed-heading {
+  margin-left: 4vh;
+  color: rgb(59, 58, 58);
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 0px;
+  margin-top: 1rem;
+}
+
+.feed-container {
+  display: flex;
+}
+
+.feed-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.feed-headings {
+  font-size: 0.85rem;
+  padding-top: 0vh;
+  position: absolute;
+  color: rgb(141, 139, 139);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+
+}
+
+.feed-date {
+  margin-top: 5.5vh;
+  font-size: 10px;
+  color: rgb(174, 175, 175);
+  font-family: 'Nunito', sans-serif;
+}
+
+/* -----------cards-Section ------------ */
+
+.cards-container {
+  font-family: 'Nunito', sans-serif;
+  /* float: right; */
+  width: 48vh;
+  height: 92vh;
+  border-left: 1px solid rgb(206, 204, 204);
+  ;
+}
+
+.cards-container-section {
+  width: 48vh;
+  height: 69vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-evenly;
+
+}
+
+.carinsurance {
+  width: 42vh;
+  height: 20vh;
+  box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.healthcard-first {
+  width: 42vh;
+  height: 20vh;
+  box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.healthcard-second {
+  width: 42vh;
+  height: 20vh;
+  box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+
+}
+
+.cards-heading {
+  margin-left: 3vh;
+  margin-bottom: 0px;
+  color: rgb(59, 58, 58);
+  font-family: 'Nunito', sans-serif;
+}
+
+.add-cards {
+  margin-top: 5px;
+  margin-left: 3vh;
+  font-size: 0.85rem;
+  color: rgb(141, 139, 139);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+.cards {
+  width: 48vh;
+  height: 65vh;
+}
+
+.add-card-button {
+  margin-top: 1vh;
+  margin-left: 3vh;
+  font-family: 'Nunito', sans-serif;
+  width: 41vh;
+  height: 6vh;
   color: white;
+  border-color: rgb(41, 111, 251);
+  text-align: center;
+  background-color: rgb(41, 111, 251);
+  border-radius: 3px;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.know-more-link {
+  float: right;
+  margin-right: 3.6vh;
+  margin-top: 1vh;
+  font-size: 0.8rem;
+  color: rgb(41, 111, 251);
 }
