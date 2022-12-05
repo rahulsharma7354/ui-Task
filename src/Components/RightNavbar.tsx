@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import HealthCard1 from './Assets/Health-1.png'
-import HealthCard2 from './Assets/Health-2.png'
-import Carcard from './Assets/Car-insurance.png'
-export default class cards extends Component {
+import './RightNavbar.scss'
+import HealthCard1 from '../Assets/Health-1.png'
+import HealthCard2 from '../Assets/Health-2.png'
+import Carcard from '../Assets/Car-insurance.png'
+export default class Cards extends Component {
   render() {
     return (
       <div className='cards-container'>

@@ -1,0 +1,74 @@
+.section-container {
+    display: flex;
+  }
+  .first-header-container {
+    display: flex;
+    height: 3.4rem;
+    border-bottom: 2px solid #efecec;
+    justify-content: space-between;
+  }
+  
+  .notification-bell{
+    color:rgb(156, 156, 156);
+    margin-right: 2.5vh;
+    margin-top: 2vh;
+    margin-left: 19vh;
+  }
+  .settings{
+    display:inline-flex;
+    width: 50vh;
+  }
+  .setting-icon{
+    
+    color:rgb(156, 156, 156);
+    
+    // padding-right: 2vh;
+    margin-right: 2.5vh;
+    margin-top: 2vh;
+  }
+  .title-heading{
+    font-family: 'Nunito', sans-serif;
+    margin-top: 2.5vh;
+    color: rgb(39, 121, 244);
+    position: absolute;
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  .profile {
+    margin-top: 1.3vh;
+    height: 2rem;
+    width: max-content;
+    display: flex;
+    font-weight: 800;
+    align-items: center;
+  }
+  
+  .profileName {
+    width: max-content;
+    height: 2rem;
+    margin: 6px;
+    padding: 0px 2rem 0px 1rem;
+    background-color: rgb(241, 248, 249);
+    border-radius: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+  }
+  .john{
+    font-weight: 700;
+  }
+  
+  .profileIcon {
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    margin-left: -32px;
+    margin-right: 16px;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  

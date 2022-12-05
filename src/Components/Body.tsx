@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
+import './Body.scss'
 import { Icon } from '@iconify/react';
-import Insurance from './Assets/insurance.png'
-import Doctor from './Assets/Doctors.png'
-import Therapy from './Assets/Therapy.png'
-import Labs from './Assets/labs.png'
-import Tick from './Assets/Tick.png'
-export default class body extends Component {
+import Insurance from '../Assets/insurance.png'
+import Doctor from '../Assets/Doctors.png'
+import Therapy from '../Assets/Therapy.png'
+import Labs from '../Assets/labs.png'
+import Tick from '../Assets/Tick.png'
+export default class Body extends Component {
   render() {
     return (
       <div className='body-container'>
@@ -22,9 +23,11 @@ export default class body extends Component {
                 <Icon className='health-dollar' icon="twemoji:heavy-dollar-sign" width={20} height={18} />
                 <span className='health-insurance-amount'>2347.08</span>
                 <div className="progress-track">
+                <span className='initiated'>
+                  Initiated
+                </span>
                   <ul id="progressbar">
                     <li className="step0 active " id="step1">
-                      Initiated
                     </li>
                     <li className="step0 active text-center" id="step2">
                       Verified
@@ -45,9 +48,11 @@ export default class body extends Component {
                 <Icon className='health-dollar' icon="twemoji:heavy-dollar-sign" width={20} height={18} />
                 <span className='health-insurance-amount'>2347.08</span>
                 <div className="progress-track-car">
+                <span className='initiated-car'>
+                  Initiated
+                </span>
                   <ul id="progressbarCar">
                     <li className="step0 active " id="step1Car">
-                      Initiated
                     </li>
                     <li className="step0 active text-center" id="step2Car">
                       Verified

@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import Mobile from './Assets/mobile.png';
-import option from './Assets/dots.png'
+import Mobile from '../Assets/mobile.png';
+import option from '../Assets/dots.png'
+import Dashboard from '../Assets/dashboard.png'
+import './LeftNavbar.scss'
 import { Icon } from '@iconify/react';
-export default class dashBoardSection extends Component {
+export default class DashBoardSection extends Component {
   render() {
     return (
         <div className="display-container">
-          <div className='dashboard-links'>
-          <Icon className='board-icon' icon="ic:round-dashboard" width={25} vFlip={true} />
-          <span className='board-text'> Dashboard</span>
+          <div className='active-link'>
+           <img className='active-icon' src={Dashboard} alt="" />
+          <span className='active-icon-text'> Dashboard</span>
           </div>
           <div className='dashboard-container'>
           <Icon className='dashboard-icon' icon="material-symbols:payments-sharp" width="21" height="21"  hFlip={true} />

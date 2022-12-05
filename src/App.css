@@ -1,7 +1,5 @@
-.section-container {
-  display: flex;
-}
-.Notification-bell{
+
+/* .Notification-bell{
   margin-bottom: 2.2vh;
   color:rgb(156, 156, 156);
 }
@@ -17,16 +15,37 @@
   position: absolute;
   font-weight: 700;
   font-size: 1.1rem;
+} */
+/* .profile {
+  height: 32px;
+  width: max-content;
+  display: flex;
+  align-items: center;
 }
-.container {
+
+.profileName {
+  width: max-content;
+  height: 32px;
+  margin: 6px;
+  padding: 0px 32px 0px 16px;
+  /* background-color: rgb(49, 155, 173); */
+  /* border-radius: 32px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: black; */
+/* }  */
+
+
+/* .container {
   display: flex;
   height: 3.4rem;
   border-bottom: 1px solid rgb(206, 204, 204);
   justify-content: space-between;
+/* } */
 
-}
-
-.display-container {
+/* .display-container {
   display: inline-flex;
   flex-direction: column;
   height: 92vh;
@@ -161,7 +180,7 @@
 }
 
 /* -------------body-section */
-
+/* 
 .body-container {
   height: 92vh;
   width: 124.5vh;
@@ -182,16 +201,16 @@
   width: 80vh;
   height: 64vh;
   border-right: 1px solid rgb(206, 204, 204);
-}
-
+} */
+/* 
 .claim-heading {
   margin-left: 4vh;
   color: rgb(59, 58, 58);
   font-family: 'Nunito', sans-serif;
   margin-bottom: 0px;
   margin-top: 1rem;
-}
-
+} */
+/* 
 .claim-status {
   margin-left: 4vh;
   margin-top: 5px;
@@ -200,16 +219,16 @@
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   margin-bottom: 0px;
-}
+} */
 
-.progress-done {
+/* .progress-done {
   margin-left: 4vh;
   width: 75vh;
   height: 22vh;
   margin-top: 0px;
 
-}
-
+} */
+/* 
 .progress {
   border-bottom: 1px solid rgb(206, 204, 204);
   height: 22.5vh;
@@ -217,39 +236,9 @@
   justify-content: space-evenly;
   align-items: center;
 
-}
+} */ 
 
-.health-claim {
-  width: 33vh;
-  height: 16.4vh;
-  border-radius: 3px;
-  font-family: 'Nunito', sans-serif;
-  border-top: 3px solid green;
-  padding-bottom: 0px;
-  box-shadow:
-  0 0px 0px hsl(0deg 0% 0% / 0.075),
-  0 1px 1px hsl(0deg 0% 0% / 0.075),
-  0 2px 2px hsl(0deg 0% 0% / 0.075),
-  0 8px 8px rgba(202, 200, 200, 0.075),
-  0 8px 8px rgba(179, 178, 178, 0.075);
-
-}
-
-.car-claim {
-  width: 33vh;
-  height: 16.4vh;
-  font-family: 'Nunito', sans-serif;
-  border-top: 3px solid purple;
-  border-radius: 3px;
-  box-shadow:
-  0 0px 0px hsl(0deg 0% 0% / 0.075),
-  0 1px 1px hsl(0deg 0% 0% / 0.075),
-  0 2px 2px hsl(0deg 0% 0% / 0.075),
-  0 8px 8px rgba(202, 200, 200, 0.075),
-  0 8px 8px rgba(179, 178, 178, 0.075);
-}
-
-.arrow-icon {
+/* .arrow-icon {
   margin-top: 7px;
   float: right;
   color: gray;
@@ -288,6 +277,7 @@
   font-weight: 600;
   font-size: 1.1rem;
 }
+*/
 #progressbar {
   color: rgb(141, 139, 139);
   overflow: hidden;
@@ -295,8 +285,8 @@
   padding-left: 0px;
   margin-top: 0.5vh;
   width: 25vh;
+  margin-left: 1.5vh;
 }
-
 #progressbar li {
   list-style-type: none;
   font-size: 8px;
@@ -304,9 +294,9 @@
   float: left;
   position: relative;
   font-weight: 300;
-  /* color: $icon-color; */
-}
-
+   /* color: $icon-color;  */
+ } 
+ 
 #progressbar #step1:before {
   content: "";
   /* color: $progress-color; */
@@ -345,8 +335,8 @@
   margin-right: 0px !important;
   margin-top: 12%;
   z-index: 1;
-}
-
+} 
+ 
 #progressbar li:before {
   line-height: 29px;
   display: block;
@@ -356,7 +346,8 @@
   margin: auto;
   z-index: -1;
   margin-bottom: 2px;
-}
+} 
+ 
 
 #progressbar li:after {
   content: "";
@@ -372,7 +363,7 @@
 .progress-track {
   padding: 0 8%;
 }
-#progressbar li:nth-child(2):after {
+ #progressbar li:nth-child(2):after {
   margin-right: auto;
 }
 
@@ -383,8 +374,8 @@
 #progressbar li:nth-child(3):after {
   float: left;
   width: 68%;
-}
-#progressbar li:nth-child(4):after {
+} 
+ #progressbar li:nth-child(4):after {
   margin-left: auto;
   width: 132%;
 }
@@ -401,59 +392,59 @@
 
 #step4 {
   text-align: right;
-}
+} 
 
 /* -------car symbol-------------------- */
-
-#progressbarCar{
+ 
+ #progressbarCar{
   overflow: hidden;
   /* color: $progress-color; */
-  padding-left: 0px;
+   padding-left: 0px;
   margin-top: 0.5vh;
   width: 25vh;
-  margin-left: 2vh;
-}
+  margin-left: 2vh; 
+ }  
 
-#progressbarCar li {
+ #progressbarCar li {
   list-style-type: none;
   font-size: 8px;
   width: 25%;
   float: left;
   position: relative;
   font-weight: 300;
-  /* color: $icon-color; */
-}
-
+   /* color: $icon-color; */ 
+ } 
+ 
 #progressbarCar #step1Car:before {
   content: "";
   /* color: $progress-color; */
-  width: 8px;
+   width: 8px;
   height: 8px;
   margin-left: 0px !important;
   margin-top: 12%;
   z-index: 1;
-}
+} 
 
-#progressbarCar #step2Car:before {
+ #progressbarCar #step2Car:before {
   content: "";
   /* color: $progress-color; */
-  width: 8px;
+   width: 8px;
   height: 8px;
   margin-left: 32% !important;
   margin-top: 12%;
   z-index: 1;
-}
+}  
 
-#progressbarCar #step3Car:before {
+ #progressbarCar #step3Car:before {
   content: "";
   /* color: $progress-color; */
-  width: 8px;
+   width: 8px;
   height: 8px;
   margin-right: 32% !important;
   margin-top: 12%;
   z-index: 1;
-}
-
+}  
+ 
 #progressbarCar #step4Car:before {
   content: "";
   color: rgb(151, 149, 149, 0.651);
@@ -462,8 +453,8 @@
   margin-right: 0px !important;
   margin-top: 12%;
   z-index: 1;
-}
-
+} 
+ 
 #progressbarCar li:before {
   line-height: 29px;
   display: block;
@@ -473,9 +464,9 @@
   margin: auto;
   z-index: -1;
   margin-bottom: 2px;
-}
+} 
 
-#progressbarCar li:after {
+ #progressbarCar li:after {
   content: "";
   height: 3px;
   background: rgb(151, 149, 149, 0.651);
@@ -492,7 +483,7 @@
 #progressbarCar li:nth-child(2):after {
   margin-right: auto;
 }
-
+ 
 #progressbarCar li:nth-child(1):after {
   margin: auto;
   background:rgb(87, 223, 160);
@@ -504,8 +495,8 @@
 #progressbarCar li:nth-child(3):after {
   float: left;
   width: 68%;
-}
-#progressbarCar li:nth-child(4):after {
+} 
+ #progressbarCar li:nth-child(4):after {
   margin-left: auto;
   width: 132%;
 }
@@ -517,9 +508,9 @@
 
 #step4 {
   text-align: right;
-}
+} 
 
-.bottomDivider {
+/* .bottomDivider {
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -538,9 +529,9 @@
   color: rgb(141, 139, 139);
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
-}
+} */
 
-.image-container {
+/* .image-container {
   display: flex;
   justify-content: space-evenly;
   width: 80vh;
@@ -567,25 +558,25 @@
 .activityfeed-section {
   width: 44vh;
   height: 64vh;
-}
-
+} */
+/* 
 .activityfeed-heading {
   margin-left: 4vh;
   color: rgb(59, 58, 58);
   font-family: 'Nunito', sans-serif;
   margin-bottom: 0px;
   margin-top: 1rem;
-}
+} */
 
-.feed-container {
+/* .feed-container {
   display: flex;
 }
 
 .feed-details {
   display: flex;
   flex-direction: column;
-}
-
+} */
+/* 
 .feed-headings {
   font-size: 0.85rem;
   padding-top: 0vh;
@@ -594,27 +585,27 @@
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
 
-}
+} */
 
-.feed-date {
+/* .feed-date {
   margin-top: 5.5vh;
   font-size: 10px;
   color: rgb(174, 175, 175);
   font-family: 'Nunito', sans-serif;
-}
+} */
 
 /* -----------cards-Section ------------ */
 
-.cards-container {
+/* .cards-container {
   font-family: 'Nunito', sans-serif;
   /* float: right; */
-  width: 48vh;
+  /* width: 48vh;
   height: 92vh;
   border-left: 1px solid rgb(206, 204, 204);
-  ;
-}
+  ; */
+/* } */ 
 
-.cards-container-section {
+/* .cards-container-section {
   width: 48vh;
   height: 69vh;
   display: flex;
@@ -622,11 +613,11 @@
   align-items: center;
   justify-content: space-evenly;
 
-}
+} */
 
 .carinsurance {
-  width: 42vh;
-  height: 20vh;
+  /* width: 42vh;
+  height: 20vh; */
   box-shadow:
     0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075),
@@ -636,8 +627,8 @@
 }
 
 .healthcard-first {
-  width: 42vh;
-  height: 20vh;
+  /* width: 42vh;
+  height: 20vh; */
   box-shadow:
     0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075),
@@ -647,8 +638,8 @@
 }
 
 .healthcard-second {
-  width: 42vh;
-  height: 20vh;
+  /* width: 42vh;
+  height: 20vh; */
   box-shadow:
     0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075),
@@ -658,14 +649,14 @@
 
 }
 
-.cards-heading {
+/* .cards-heading {
   margin-left: 3vh;
   margin-bottom: 0px;
   color: rgb(59, 58, 58);
   font-family: 'Nunito', sans-serif;
-}
+} */
 
-.add-cards {
+/* .add-cards {
   margin-top: 5px;
   margin-left: 3vh;
   font-size: 0.85rem;
@@ -677,8 +668,8 @@
 .cards {
   width: 48vh;
   height: 65vh;
-}
-
+} */
+/* 
 .add-card-button {
   margin-top: 1vh;
   margin-left: 3vh;
@@ -691,12 +682,55 @@
   background-color: rgb(41, 111, 251);
   border-radius: 3px;
   border: none;
-}
-
+} */
+/* 
 .know-more-link {
   float: right;
   margin-right: 3.6vh;
   margin-top: 1vh;
   font-size: 0.8rem;
   color: rgb(41, 111, 251);
+}  */
+.profileIcon {
+  background-image: url('./Assets/JohnSamuel.png');
+  /* height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  margin-left: -32px;
+  margin-right: 16px;
+  background-position: 50% 50%;
+  background-size: cover; */
+}
+
+.health-claim {
+  /* width: 33vh;
+  height: 16.4vh;
+  border-radius: 3px;
+  font-family: 'Nunito', sans-serif;
+  border-top: 3px solid green;
+  padding-bottom: 0px; */
+  box-shadow:
+  0 0px 0px hsl(0deg 0% 0% / 0.075),
+  0 1px 1px hsl(0deg 0% 0% / 0.075),
+  0 2px 2px hsl(0deg 0% 0% / 0.075),
+  0 8px 8px rgba(202, 200, 200, 0.075),
+  0 8px 8px rgba(179, 178, 178, 0.075);
+
+}
+
+.car-claim {
+  /* width: 33vh;
+  height: 16.4vh;
+  font-family: 'Nunito', sans-serif;
+  border-top: 3px solid purple;
+  border-radius: 3px; */
+  box-shadow:
+  0 0px 0px hsl(0deg 0% 0% / 0.075),
+  0 1px 1px hsl(0deg 0% 0% / 0.075),
+  0 2px 2px hsl(0deg 0% 0% / 0.075),
+  0 8px 8px rgba(202, 200, 200, 0.075),
+  0 8px 8px rgba(179, 178, 178, 0.075);
+}
+.section-container {
+  display: flex;
 }

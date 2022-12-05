@@ -1,0 +1,452 @@
+.body-container {
+    height: 92vh;
+    width: 124.5vh;
+  }
+  
+  .insurance-heading {
+    width: 124.4vh;
+    height: 27vh;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #efecec;;
+  }
+  
+  .container-section-body {
+    display: flex;
+  }
+  
+  .current-claim-section {
+    width: 80vh;
+    height: 64vh;
+    border-right: 2px solid #efecec;;
+  }
+  
+  .claim-heading {
+    margin-left: 4vh;
+    color: rgb(59, 58, 58);
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 1rem;
+  }
+  
+  .claim-status {
+    margin-left: 4vh;
+    margin-top: 5px;
+    font-size: 0.85rem;
+    color: rgb(141, 139, 139);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+  
+  .progress-done {
+    margin-left: 4vh;
+    width: 75vh;
+    height: 22vh;
+    margin-top: 0px;
+  
+  }
+  
+  .progress {
+    border-bottom: 2px solid #efecec;;
+    height: 24vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+  }
+  
+  .health-claim {
+    width: 33vh;
+    height: 16.4vh;
+    border-radius: 3px;
+    font-family: 'Nunito', sans-serif;
+    border-top: 3px solid green;
+    padding-bottom: 0px;
+  }
+  
+  .car-claim {
+    width: 33vh;
+    height: 16.4vh;
+    font-family: 'Nunito', sans-serif;
+    border-top: 3px solid purple;
+    border-radius: 3px;
+  }
+  
+  .arrow-icon {
+    margin-top: 7px;
+    float: right;
+    color: gray;
+    display: inline;
+    margin-right: 2vh;
+  }
+  #step4Car{
+    text-align: right;
+  }
+  .health-claim-heading {
+    position: absolute;
+    margin-top: 1.5vh;
+    color: rgb(141, 139, 139);
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.75rem;
+    margin-bottom: 5px;
+    margin-left: 2vh;
+  }
+  .health-number{
+    color: rgb(59, 58, 58);
+    font-family: 'Nunito', sans-serif;
+    margin-top: 4vh;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 2vh;
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+  }
+  .settle{
+    font-size: 9px;
+    position: relative;
+  
+    
+  }
+  .health-dollar{
+    margin-left: 1vh;
+    margin-top: 2px;
+  }
+  .health-insurance-amount{
+    margin-left: 4px;
+    margin-top: 0px;
+    position: absolute;
+    color: rgb(12, 12, 12);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  .initiated{
+    font-size: 9px;
+    position: absolute;
+    margin-top: 2vh;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(141, 139, 139);
+  }
+  .initiated-car{
+    font-size: 9px;
+    position: absolute;
+    margin-top: 2vh;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(141, 139, 139);
+    margin-left: 2vh;
+  }
+  // #progressbar {
+  //   color: rgb(141, 139, 139);
+  //   overflow: hidden;
+  //   /* color: $progress-color; */
+  //   padding-left: 0px;
+  //   margin-top: 0.5vh;
+  //   margin-left: 1.5vh;
+  //   width: 25vh;
+  // }
+  
+  // #progressbar li {
+  //   list-style-type: none;
+  //   font-size: 8px;
+  //   width: 25%;
+  //   float: left;
+  //   position: relative;
+  //   font-weight: 300;
+  //   /* color: $icon-color; */
+  // }
+  
+  // #progressbar #step1:before {
+  //   content: "";
+  //   /* color: $progress-color; */
+  //   width: 8px;
+  //   height: 8px;
+  //   margin-left: 0px !important;
+  //   margin-top: 12%;
+  //   z-index: 1;
+  // }
+  
+  // #progressbar #step2:before {
+  //   content: "";
+  //   /* color: $progress-color; */
+  //   width: 8px;
+  //   height: 8px;
+  //   margin-left: 32%;
+  //   margin-top: 12%;
+  //   z-index: 1;
+  // }
+  
+  // #progressbar #step3:before {
+  //   content: "";
+  //   /* color: $progress-color; */
+  //   width: 8px;
+  //   height: 8px;
+  //   margin-right: 32%;
+  //   margin-top: 12%;
+  //   z-index: 1;
+  // }
+  
+  // #progressbar #step4:before {
+  //   content: "";
+  //   color: rgba(152, 149, 149, 0.651);
+  //   width: 8px;
+  //   height: 8px;
+  //   margin-right: 0px !important;
+  //   margin-top: 12%;
+  //   z-index: 1;
+  // }
+  
+  // #progressbar li:before {
+  //   line-height: 29px;
+  //   display: block;
+  //   font-size: 8px;
+  //   background: rgb(151, 149, 149);
+  //   border-radius: 50%;
+  //   margin: auto;
+  //   z-index: -1;
+  //   margin-bottom: 2px;
+  // }
+  
+  // #progressbar li:after {
+  //   content: "";
+  //   height: 3px;
+  //   background: rgb(151, 149, 149, 0.651);
+  //   position: absolute;
+  //   left: 0%;
+  //   right: 0%;
+  //   margin-bottom: 2vh;
+  //   top: 8px;
+  //   z-index: 1;
+  // }
+  // .progress-track {
+  //   padding: 0 8%;
+  // }
+  // #progressbar li:nth-child(2):after {
+  //   margin-right: auto;
+  // }
+  
+  // #progressbar li:nth-child(1):after {
+  //   margin: auto;
+  // }
+  
+  // #progressbar li:nth-child(3):after {
+  //   float: left;
+  //   width: 68%;
+  // }
+  // #progressbar li:nth-child(4):after {
+  //   margin-left: auto;
+  //   width: 132%;
+  // }
+  
+  // #progressbar li.active:before,
+  // #progressbar li.active:after {
+  //   background:rgb(87, 223, 160);
+  // }
+  
+  // #three {
+  //   font-size: 8px;
+  //   color: black;
+  // }
+  
+  // #step4 {
+  //   text-align: right;
+  // }
+  
+  /* -------car symbol-------------------- */
+  
+  #progressbarCar{
+    overflow: hidden;
+    /* color: $progress-color; */
+    padding-left: 0px;
+    margin-top: 0.5vh;
+    width: 25vh;
+    margin-left: 3.2vh;
+  }
+  
+  #progressbarCar li {
+    list-style-type: none;
+    font-size: 8px;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 300;
+    /* color: $icon-color; */
+  }
+  
+  #progressbarCar #step1Car:before {
+    content: "";
+    /* color: $progress-color; */
+    width: 8px;
+    height: 8px;
+    margin-left: 0px !important;
+    margin-top: 12%;
+    z-index: 1;
+  }
+  
+  #progressbarCar #step2Car:before {
+    content: "";
+    /* color: $progress-color; */
+    width: 8px;
+    height: 8px;
+    margin-left: 32% !important;
+    margin-top: 12%;
+    z-index: 1;
+  }
+  
+  #progressbarCar #step3Car:before {
+    content: "";
+    /* color: $progress-color; */
+    width: 8px;
+    height: 8px;
+    margin-right: 32% !important;
+    margin-top: 12%;
+    z-index: 1;
+  }
+  
+  #progressbarCar #step4Car:before {
+    content: "";
+    // color: rgb(151, 149, 149, 0.651);
+    width: 8px;
+    height: 8px;
+    margin-right: 0px !important;
+    margin-top: 12%;
+    z-index: 1;
+  }
+  
+  #progressbarCar li:before {
+    line-height: 29px;
+    display: block;
+    font-size: 8px;
+    background: rgb(151, 149, 149);
+    border-radius: 50%;
+    margin: auto;
+    z-index: -1;
+    margin-bottom: 2px;
+  }
+  
+  #progressbarCar li:after {
+    content: "";
+    height: 3px;
+    // background: rgb(151, 149, 149, 0.651);
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin-bottom: 2vh;
+    top: 8px;
+    z-index: 1;
+  }
+  .progress-track {
+    padding: 0 8%;
+  }
+  #progressbarCar li:nth-child(2):after {
+    margin-right: auto;
+  }
+  
+  #progressbarCar li:nth-child(1):after {
+    margin: auto;
+    background:rgb(87, 223, 160);
+  }
+  #progressbarCar li:nth-child(1):before{
+    background:rgb(87, 223, 160);
+  }
+  
+  #progressbarCar li:nth-child(3):after {
+    float: left;
+    width: 68%;
+  }
+  #progressbarCar li:nth-child(4):after {
+    margin-left: auto;
+    width: 132%;
+  }
+  
+  #three {
+    font-size: 8px;
+    color: black;
+  }
+  
+  #step4 {
+    text-align: right;
+  }
+  
+  .bottomDivider {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .consutlations {
+    margin-bottom: 0px;
+    color: rgb(59, 58, 58);
+    font-family: 'Nunito', sans-serif;
+    margin-left: 4vh;
+    margin-top: 1rem;
+  }
+  
+  .consutlation-content {
+    margin-top: 5px;
+    margin-left: 4vh;
+    font-size: 0.85rem;
+    color: rgb(141, 139, 139);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vh;
+    height: 20vh;
+  
+  }
+  
+  .lab-image {
+    width: 21vh;
+    height: 19vh;
+  }
+  
+  .doctor-image {
+    width: 21vh;
+    height: 19vh;
+  
+  }
+  
+  .therapy-image {
+    width: 21vh;
+    height: 19vh;
+  }
+  
+  .activityfeed-section {
+    width: 44vh;
+    height: 64vh;
+  }
+  
+  .activityfeed-heading {
+    margin-left: 4vh;
+    color: rgb(59, 58, 58);
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 1rem;
+  }
+  
+  .feed-container {
+    display: flex;
+  }
+  
+  .feed-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feed-headings {
+    font-size: 0.85rem;
+    padding-top: 0vh;
+    position: absolute;
+    color: rgb(141, 139, 139);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+  
+  }
+  
+  .feed-date {
+    margin-top: 5.5vh;
+    font-size: 10px;
+    color: rgb(174, 175, 175);
+    font-family: 'Nunito', sans-serif;
+  }
