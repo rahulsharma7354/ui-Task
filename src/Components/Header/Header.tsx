@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import { Icon } from '@iconify/react';
 import './Header.scss'
-import Title from '../Assets/Title.png'
 export default class Header extends Component {
   render() {
     return (
       <>
         <div className="first-header-container">
           <div className="title">
-            <img src={Title} alt="title" width={77} />
+            <img src="./Assets/Title.png" alt="title" width={77} />
             <span className='title-heading'>TITLE</span>
           </div>
           <div className="settings">

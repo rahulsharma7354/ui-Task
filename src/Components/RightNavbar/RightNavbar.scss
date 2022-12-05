@@ -1,45 +1,17 @@
 .cards-container {
-    font-family: 'Nunito', sans-serif;
-    /* float: right; */
-    width: 48vh;
-    height: 92vh;
-    border-left: 2px solid #efecec;
-    
-  }
-  
-  .cards-container-section {
-    width: 48vh;
-    height: 67.5vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-  
-  }
-  
-  .carinsurance {
-    width: 42vh;
-    height: 19vh;
-  }
-  
-  .healthcard-first {
-    width: 42vh;
-    height: 19vh;
-  }
-  
-  .healthcard-second {
-    width: 42vh;
-    height: 19vh;
-  
-  }
-  
+  font-family: 'Nunito', sans-serif;
+  /* float: right; */
+  width: 48vh;
+  height: 92vh;
+  border-left: 2px solid #efecec;
+
   .cards-heading {
     margin-left: 3vh;
     margin-bottom: 0px;
     color: rgb(59, 58, 58);
     font-family: 'Nunito', sans-serif;
   }
-  
+
   .add-cards {
     margin-top: 5px;
     margin-left: 3vh;
@@ -48,12 +20,32 @@
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
   }
-  
-  .cards {
+
+  .cards-container-section {
     width: 48vh;
-    height: 65vh;
+    height: 67.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .carinsurance {
+      width: 42vh;
+      height: 19vh;
+    }
+
+    .healthcard-first {
+      width: 42vh;
+      height: 19vh;
+    }
+
+    .healthcard-second {
+      width: 42vh;
+      height: 19vh;
+
+    }
   }
-  
+
   .add-card-button {
     margin-top: 1vh;
     margin-left: 3vh;
@@ -67,7 +59,7 @@
     border-radius: 3px;
     border: none;
   }
-  
+
   .know-more-link {
     float: right;
     margin-right: 3.6vh;
@@ -75,3 +67,9 @@
     font-size: 0.8rem;
     color: rgb(41, 111, 251);
   }
+
+  .cards {
+    width: 48vh;
+    height: 65vh;
+  }
+}

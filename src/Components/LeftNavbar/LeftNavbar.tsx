@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import Mobile from '../Assets/mobile.png';
-import option from '../Assets/dots.png'
-import Dashboard from '../Assets/dashboard.png'
 import './LeftNavbar.scss'
 import { Icon } from '@iconify/react';
 export default class DashBoardSection extends Component {
@@ -9,7 +6,7 @@ export default class DashBoardSection extends Component {
     return (
         <div className="display-container">
           <div className='active-link'>
-           <img className='active-icon' src={Dashboard} alt="" />
+           <img className='active-icon' src="./Assets/dashboard.png" alt="" />
           <span className='active-icon-text'> Dashboard</span>
           </div>
           <div className='dashboard-container'>
@@ -21,7 +18,7 @@ export default class DashBoardSection extends Component {
           <span className='icon-text'>My Policy</span>
           </div>
           <div className='dashboard-container'>
-            <img className='dashboard-icon' src={Mobile} alt="" width={21} height={21}/>
+            <img className='dashboard-icon' src="./Assets/mobile.png" alt="" width={21} height={21}/>
           <span className='icon-text'>My Claim</span>
           </div>
           <div className='dashboard-container'>
@@ -41,7 +38,7 @@ export default class DashBoardSection extends Component {
             <p className='top-up-content'>Add money to your wallet</p>
           </div>
           <div className='add-money'>
-            <img className='option' src={option} alt="" width={9} />
+            <img className='option' src="./Assets/dots.png" alt="" width={9} />
             <h5 className='current-balance-heading'>Current Balance</h5>
             <div className='balance-container'>
             <Icon className='dollar' icon="twemoji:heavy-dollar-sign" width={35} height={27}/>

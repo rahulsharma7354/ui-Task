@@ -691,16 +691,7 @@
   font-size: 0.8rem;
   color: rgb(41, 111, 251);
 }  */
-.profileIcon {
-  background-image: url('./Assets/JohnSamuel.png');
-  /* height: 32px;
-  width: 32px;
-  border-radius: 100%;
-  margin-left: -32px;
-  margin-right: 16px;
-  background-position: 50% 50%;
-  background-size: cover; */
-}
+
 
 .health-claim {
   /* width: 33vh;

@@ -1,10 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './Components/Header'
-import Dashboard from './Components/LeftNavbar'
-import Cards from './Components/RightNavbar';
-import Body from './Components/Body'
+import Header from './Components/Header/Header'
+import Dashboard from './Components/LeftNavbar/LeftNavbar'
+import Cards from './Components/RightNavbar/RightNavbar';
+import Body from './Components/Body/Body'
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
       <Body/>
       <Cards/>
       </div>
-
       </>
   );
 }

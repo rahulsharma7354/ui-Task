@@ -1,0 +1,145 @@
+  .display-container {
+    display: inline-flex;
+    flex-direction: column;
+    height: 92vh;
+    width: 36vh;
+    border-right: 2px solid #efecec;
+    ;
+    padding-left: 4vh;
+
+    .dashboard-image {
+      border-radius: 10px;
+    }
+
+    .dashboard-container {
+      display: block;
+      height: 7vh;
+
+    }
+
+    .active-icon {
+      margin-top: 4vh;
+      padding-top: 5px;
+      color: blue;
+      // border-radius: 10px;
+      margin-bottom: 3.1vh;
+      width: 2.7vh;
+      margin-right: 1vh;
+
+    }
+
+    .active-icon-text {
+      color: rgb(59, 58, 58);
+      font-family: 'Nunito', sans-serif;
+      font-weight: 700;
+      position: absolute;
+      margin-top: 5vh;
+      margin-left: 2vh;
+      font-size: 0.9rem;
+    }
+
+    .dashboard-icon {
+      margin-right: 2vh;
+      padding-top: 5px;
+      position: absolute;
+      color: rgb(180, 176, 176);
+    }
+
+    .icon-text {
+      padding-left: 6.5vh;
+      font-size: 0.85rem;
+      padding-top: 1vh;
+      position: absolute;
+      color: rgb(141, 139, 139);
+      font-family: 'Nunito', sans-serif;
+      font-weight: 600;
+    }
+
+    .dashboard-icon-payment {
+      margin-right: 2vh;
+      padding-top: 5px;
+      position: absolute;
+      background-color: rgb(180, 176, 176);
+      color: white;
+
+    }
+
+    .dashboard-bottom-section {
+      margin-top: 7vh;
+
+      .topup-heading {
+        margin-bottom: 0px;
+        color: rgb(59, 58, 58);
+        font-family: 'Nunito', sans-serif;
+      }
+
+      .top-up-content {
+        margin-top: 9px;
+        color: rgb(141, 139, 139);
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+      }
+    }
+
+
+
+    .add-money {
+      background-color: rgb(247, 248, 248);
+      width: 33vh;
+      height: 20vh;
+
+      .add-money-button {
+        margin-top: 1vh;
+        margin-left: 2vh;
+        font-family: 'Nunito', sans-serif;
+        width: 25vh;
+        height: 5vh;
+        color: white;
+        border-color: rgb(41, 111, 251);
+        text-align: center;
+        background-color: rgb(41, 111, 251);
+        border-radius: 3px;
+        border: none;
+      }
+
+      .option {
+        float: right;
+        margin-right: 2vh;
+        margin-top: 1vh;
+
+      }
+
+      .current-balance-heading {
+        font-family: 'Nunito', sans-serif;
+        margin-left: 2vh;
+        color: rgb(95, 94, 94);
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 0px;
+      }
+
+      .balance {
+        margin-top: 0px;
+        padding-top: 0px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-left: 6vh;
+        color: rgb(40, 40, 40);
+      }
+
+      .balance-container {
+        margin-top: 0px;
+
+        .dollar {
+          margin-top: 5px;
+          position: absolute;
+          margin-left: 1vh;
+          color: rgb(40, 40, 40);
+        }
+      }
+    }
+
+
+  }
