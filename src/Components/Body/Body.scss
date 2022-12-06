@@ -5,7 +5,6 @@
   .insurance-heading {
     width: 124vh;
     height: 28vh;
-    // margin-bottom: 0px;
     border-bottom: 2px solid #efecec;
   }
 
@@ -222,13 +221,13 @@
         position: absolute;
         left: 0%;
         right: 0%;
-        margin-bottom: 2vh;
+        // margin-bottom: 2vh;
         top: 8px;
         z-index: 1;
       }
 
       .progress-track {
-        padding: 0 8%;
+        // padding: 0 8%;
       }
 
       #progressbarCar li:nth-child(2):after {
@@ -263,24 +262,19 @@
         text-align: right;
       }
 
-      .bottomDivider {
-        margin-top: 20px;
-        margin-bottom: 30px;
-      }
-
       .consutlations {
-        margin-bottom: 0px;
+        // margin-bottom: 0px;
         color: rgb(59, 58, 58);
         font-family: 'Nunito', sans-serif;
-        margin-left: 4vh;
-        margin-top: 1.5rem;
+        // margin-left: 4vh;
+        // margin-top: 1.5rem;
         font-size: 1rem;
         font-weight: 700;
       }
 
       .consutlation-content {
-        margin-top: 5px;
-        margin-left: 4vh;
+        // margin-top: 5px;
+        // margin-left: 4vh;
         font-size: 0.85rem;
         color: rgb(141, 139, 139);
         font-family: 'Nunito', sans-serif;
@@ -315,13 +309,13 @@
       height: 64vh;
 
       .activity-head {
-        margin-left: 4vh;
+        // margin-left: 4vh;
         font-size: 1rem;
         font-weight: 700;
         color: rgb(59, 58, 58);
         font-family: 'Nunito', sans-serif;
-        margin-bottom: 2vh;
-        margin-top: 1.5rem;
+        // margin-bottom: 2vh;
+        // margin-top: 1.5rem;
       }
 
       .feeds-continer {
@@ -338,13 +332,14 @@
         }
 
         .icon-right{
-          margin-left: 1vh;
-          height: 9.3vh;
+          // margin-left: 1vh;
+          height: 7vh;
+          width: 7vh;
         }
         .feed-headings {
           font-size: 0.85rem;
-          padding-top: 0vh;
-          margin-top: 2.5vh;
+          // padding-top: 0vh;
+          // margin-top: 2.5vh;
           
           position: absolute;
           color: rgb(141, 139, 139);
@@ -352,14 +347,14 @@
           font-weight: 600;
         }
         .last-feed-date{
-          margin-top: 5.5vh;
+          // margin-top: 5.5vh;
           font-size: 10px;
           color: rgb(174, 175, 175);
           font-family: 'Nunito', sans-serif;
           margin-bottom: 0px
         }
         .feed-date {
-          margin-top: 5.5vh;
+          // margin-top: 5.5vh;
           font-size: 10px;
           color: rgb(174, 175, 175);
           font-family: 'Nunito', sans-serif;
