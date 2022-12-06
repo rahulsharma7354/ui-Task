@@ -13,8 +13,8 @@ export default class Header extends Component {
           <div className="settings">
             <Icon className='notification-bell' icon="mingcute:notification-fill" width={21} />
             <Icon className='setting-icon' icon="material-symbols:settings" width={21} />
-            <span className="profile">
-              <div className="profileName">
+            <span className="person-profile">
+              <div className="profile-name">
                 <p className='john'>John Samuel</p>
               </div>
               <div className="profileIcon">

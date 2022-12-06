@@ -10,7 +10,7 @@ export default class Body extends Component {
           <div className='current-claim-section'>
             <h4 className='claim-heading'>Current Claims</h4>
             <p className='claim-status'>Track Your Claim Status</p>
-            <div className="progress">
+            <div className="progress-cards">
               <div className='health-claim'>
                 <Icon className='arrow-icon' icon="material-symbols:arrow-back-rounded" width={22} hFlip={true} />
                 <p className='health-claim-heading'>Health Insurance Claim</p>
@@ -70,48 +70,48 @@ export default class Body extends Component {
               <img className='therapy-image' src="./Assets/Therapy.png" alt=""/>
             </div>
           </div>
-          <div className='activityfeed-section'>
-            <h4 className='activityfeed-heading'>Activity Feed</h4>
-            <div className='feed-container'>
-              <img src="./Assets/Tick.png" alt="" width={80} />
+          <div className='activityfeeds-continer'>
+            <h4 className='activity-head'>Activity Feed</h4>
+            <div className='feeds-continer'>
+              <img className='icon-right' src="./Assets/Tick.png" alt="" width={80} />
               <div className='feed-details'>
                 <h4 className='feed-headings'>Booked Doctor Consulation</h4>
                 <p className='feed-date'>3rd August 2022</p>
               </div>
             </div>
-            <div className='feed-container'>
-              <img src="./Assets/Tick.png" alt="" width={80} />
+            <div className='feeds-continer'>
+              <img className='icon-right' src="./Assets/Tick.png" alt="" width={80} />
               <div className='feed-details'>
                 <h4 className='feed-headings'>Requested Insured Changes</h4>
                 <p className='feed-date'>1rst August 2022</p>
               </div>
             </div>
-            <div className='feed-container'>
-              <img src="./Assets/Tick.png" alt="" width={80} />
+            <div className='feeds-continer'>
+              <img className='icon-right' src="./Assets/Tick.png" alt="" width={80} />
               <div className='feed-details'>
                 <h4 className='feed-headings'>Raised Claim For #910256</h4>
                 <p className='feed-date'>30th July 2022</p>
               </div>
             </div>
-            <div className='feed-container'>
-              <img src="./Assets/Tick.png" alt="" width={80} />
+            <div className='feeds-continer'>
+              <img className='icon-right' src="./Assets/Tick.png" alt="" width={80} />
               <div className='feed-details'>
                 <h4 className='feed-headings'>Query For ACH Payment</h4>
                 <p className='feed-date'>30th July 2022</p>
               </div>
             </div>
-            <div className='feed-container'>
-              <img src="./Assets/Tick.png" alt="" width={80} />
+            <div className='feeds-continer'>
+              <img className='icon-right' src="./Assets/Tick.png" alt="" width={80} />
               <div className='feed-details'>
                 <h4 className='feed-headings'>Renewed Health Policy #..</h4>
                 <p className='feed-date'>30th July 2022</p>
               </div>
             </div>
-            <div className='feed-container'>
-              <img src="./Assets/Tick.png" alt="" width={80} />
-              <div className='feed-details'>
+            <div className='feeds-continer'>
+              <img className='icon-right' src="./Assets/Tick.png" alt="" width={80} />
+              <div className='last-feed-details'>
                 <h4 className='feed-headings'>Requested Quote For Family</h4>
-                <p className='feed-date'>28th July 2022</p>
+                <p className='last-feed-date'>28th July 2022</p>
               </div>
             </div>
 

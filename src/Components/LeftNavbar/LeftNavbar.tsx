@@ -1,39 +1,40 @@
 import React, { Component } from 'react';
 import './LeftNavbar.scss'
 import { Icon } from '@iconify/react';
+import {Board28Filled} from "@fluentui/react-icons";
 export default class DashBoardSection extends Component {
   render() {
     return (
-        <div className="display-container">
-          <div className='active-link'>
-           <img className='active-icon' src="./Assets/dashboard.png" alt="" />
+        <div className="display-container d-flex flex-column ">
+          <div  className=' p-2 active-link'>
+          <Board28Filled id='active-icon'/>
           <span className='active-icon-text'> Dashboard</span>
           </div>
-          <div className='dashboard-container'>
+          <div className='p-2 dashboard-container'>
           <Icon className='dashboard-icon' icon="material-symbols:payments-sharp" width="21" height="21"  hFlip={true} />
           <span className='icon-text'> Payments</span>
           </div>
-          <div className='dashboard-container'>
+          <div className=' p-2 dashboard-container'>
           <Icon className='dashboard-icon' icon="ri:book-fill"  width="21" height="20"/>
           <span className='icon-text'>My Policy</span>
           </div>
-          <div className='dashboard-container'>
+          <div className=' p-2 dashboard-container'>
             <img className='dashboard-icon' src="./Assets/mobile.png" alt="" width={21} height={21}/>
           <span className='icon-text'>My Claim</span>
           </div>
-          <div className='dashboard-container'>
+          <div className=' p-2 dashboard-container'>
           <Icon className='dashboard-icon' icon="bi:credit-card-fill" width="18" height="21"  hFlip={true} />
           <span className='icon-text'>Manage Cards</span>
           </div>
-          <div className='dashboard-container'>
+          <div className=' p-2 dashboard-container'>
           <Icon className='dashboard-icon' icon="fluent:handshake-24-filled" width="21" height="21"  hFlip={true} />
           <span className='icon-text'>Settings</span>
           </div>
-          <div className='dashboard-container'>
+          <div className=' p-2 dashboard-container'>
           <Icon className='dashboard-icon' icon="fluent:handshake-24-filled" width="21" height="21"  hFlip={true} />
           <span className='icon-text'>Support</span>
           </div>
-          <div className='dashboard-bottom-section'>
+          <div className=' dashboard-bottom-section'>
             <h4 className='topup-heading'>Top Up</h4>
             <p className='top-up-content'>Add money to your wallet</p>
           </div>

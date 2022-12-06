@@ -7,6 +7,9 @@
 
   .cards-heading {
     margin-left: 3vh;
+    margin-top: 3vh;
+    font-size: 1rem;
+    font-weight: 700;
     margin-bottom: 0px;
     color: rgb(59, 58, 58);
     font-family: 'Nunito', sans-serif;
@@ -19,29 +22,31 @@
     color: rgb(141, 139, 139);
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
+    margin-bottom: 6px;
   }
 
   .cards-container-section {
     width: 48vh;
-    height: 67.5vh;
+    height: 70vh;
     display: flex;
+    margin-left: 1.4vh;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 
     .carinsurance {
-      width: 42vh;
-      height: 19vh;
+      width: 45vh;
+      height: 20vh;
     }
 
     .healthcard-first {
-      width: 42vh;
-      height: 19vh;
+      width: 45vh;
+      height: 20vh;
     }
 
     .healthcard-second {
-      width: 42vh;
-      height: 19vh;
+      width: 45vh;
+      height: 20vh;
 
     }
   }
@@ -50,7 +55,7 @@
     margin-top: 1vh;
     margin-left: 3vh;
     font-family: 'Nunito', sans-serif;
-    width: 42vh;
+    width: 45vh;
     height: 6vh;
     color: white;
     border-color: rgb(41, 111, 251);
@@ -62,7 +67,7 @@
 
   .know-more-link {
     float: right;
-    margin-right: 3.6vh;
+    margin-right: 0vh;
     margin-top: 1vh;
     font-size: 0.8rem;
     color: rgb(41, 111, 251);

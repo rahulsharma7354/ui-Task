@@ -3,13 +3,13 @@
     flex-direction: column;
     height: 92vh;
     width: 36vh;
-    border-right: 2px solid #efecec;
-    ;
-    padding-left: 4vh;
+    border-right: 2px solid #efecec;;
+    padding-left: 2vh;
 
     .dashboard-image {
       border-radius: 10px;
     }
+
 
     .dashboard-container {
       display: block;
@@ -17,15 +17,14 @@
 
     }
 
-    .active-icon {
+    #active-icon {
       margin-top: 4vh;
       padding-top: 5px;
       color: blue;
       // border-radius: 10px;
-      margin-bottom: 3.1vh;
-      width: 2.7vh;
+      margin-bottom: 2vh;
       margin-right: 1vh;
-
+      
     }
 
     .active-icon-text {
@@ -34,7 +33,7 @@
       font-weight: 700;
       position: absolute;
       margin-top: 5vh;
-      margin-left: 2vh;
+      margin-left: 1rem;
       font-size: 0.9rem;
     }
 
@@ -65,10 +64,13 @@
     }
 
     .dashboard-bottom-section {
-      margin-top: 7vh;
+      margin-top: 12vh;
+      margin-left: 2vh;
 
       .topup-heading {
         margin-bottom: 0px;
+        font-size: 1rem;
+        font-weight: 700;
         color: rgb(59, 58, 58);
         font-family: 'Nunito', sans-serif;
       }
@@ -86,7 +88,7 @@
 
     .add-money {
       background-color: rgb(247, 248, 248);
-      width: 33vh;
+      width: 30vh;
       height: 20vh;
 
       .add-money-button {
@@ -114,9 +116,10 @@
         font-family: 'Nunito', sans-serif;
         margin-left: 2vh;
         color: rgb(95, 94, 94);
-        font-size: 1rem;
-        font-weight: 500;
+        font-size: 1.9vh;
+        font-weight: 600;
         margin-bottom: 0px;
+        margin-top: 3vh;
       }
 
       .balance {

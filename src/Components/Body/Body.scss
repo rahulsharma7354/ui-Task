@@ -23,7 +23,9 @@
         color: rgb(59, 58, 58);
         font-family: 'Nunito', sans-serif;
         margin-bottom: 0px;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
+        font-size: 1rem;
+        font-weight: 700;
       }
 
       .claim-status {
@@ -36,7 +38,7 @@
         margin-bottom: 0px;
       }
 
-      .progress {
+      .progress-cards {
         border-bottom: 2px solid #efecec;
         ;
         height: 24vh;
@@ -67,7 +69,7 @@
         width: 34vh;
         height: 17vh;
         font-family: 'Nunito', sans-serif;
-        border-top: 3px solid purple;
+        border-top: 3px solid rgb(42, 6, 151);
         border-radius: 3px;
       }
 
@@ -270,7 +272,9 @@
         color: rgb(59, 58, 58);
         font-family: 'Nunito', sans-serif;
         margin-left: 4vh;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
+        font-size: 1rem;
+        font-weight: 700;
       }
 
       .consutlation-content {
@@ -305,35 +309,54 @@
       }
     }
 
-    .activityfeed-section {
+    .activityfeeds-continer {
       width: 44vh;
       height: 64vh;
 
-      .activityfeed-heading {
+      .activity-head {
         margin-left: 4vh;
+        font-size: 1rem;
+        font-weight: 700;
         color: rgb(59, 58, 58);
         font-family: 'Nunito', sans-serif;
-        margin-bottom: 0px;
-        margin-top: 1rem;
+        margin-bottom: 2vh;
+        margin-top: 1.5rem;
       }
 
-      .feed-container {
+      .feeds-continer {
         display: flex;
 
         .feed-details {
           display: flex;
           flex-direction: column;
         }
+        .last-feed-details{
+          display: flex ;
+          flex-direction: column;
+          height: 5vh;
+        }
 
+        .icon-right{
+          margin-left: 1vh;
+          height: 9.3vh;
+        }
         .feed-headings {
           font-size: 0.85rem;
           padding-top: 0vh;
+          margin-top: 2.5vh;
+          
           position: absolute;
           color: rgb(141, 139, 139);
           font-family: 'Nunito', sans-serif;
           font-weight: 600;
         }
-
+        .last-feed-date{
+          margin-top: 5.5vh;
+          font-size: 10px;
+          color: rgb(174, 175, 175);
+          font-family: 'Nunito', sans-serif;
+          margin-bottom: 0px
+        }
         .feed-date {
           margin-top: 5.5vh;
           font-size: 10px;
