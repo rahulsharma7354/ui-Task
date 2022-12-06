@@ -4,8 +4,8 @@
 
   .insurance-heading {
     width: 124vh;
-    height: 26vh;
-    margin-bottom: 0px;
+    height: 28vh;
+    // margin-bottom: 0px;
     border-bottom: 2px solid #efecec;
   }
 
@@ -19,7 +19,7 @@
       border-right: 2px solid #efecec;
 
       .claim-heading {
-        margin-left: 4vh;
+        // margin-left: 4vh;
         color: rgb(59, 58, 58);
         font-family: 'Nunito', sans-serif;
         margin-bottom: 0px;
@@ -56,9 +56,8 @@
         border-top: 3px solid green;
         padding-bottom: 0px;
       }
-
       .progress-done {
-        margin-left: 4vh;
+        // margin-left: 4vh;
         width: 75vh;
         height: 22vh;
         margin-top: 0px;
@@ -74,24 +73,26 @@
       }
 
       .arrow-icon {
-        margin-top: 8px;
+        // margin-top: 8px;
         float: right;
         color: gray;
         display: inline;
-        margin-right: 2vh;
+        // margin-right: 2vh;
       }
 
-
+      .progress-track-car{
+        width: 25vh;
+      }
       #step4Car {
         text-align: right;
       }
 
       .health-claim-heading {
         position: absolute;
-        margin-top: 1.5vh;
+        // margin-top: 1.5vh;
         color: rgb(141, 139, 139);
         font-family: 'Nunito', sans-serif;
-        font-size: 0.75rem;
+        font-size: 0.7rem;
         margin-bottom: 5px;
         margin-left: 2vh;
       }
@@ -99,11 +100,11 @@
       .health-number {
         color: rgb(59, 58, 58);
         font-family: 'Nunito', sans-serif;
-        margin-top: 4vh;
+        // margin-top: 4vh;
         font-size: 0.8rem;
         font-weight: 600;
-        margin-left: 2vh;
-        margin-bottom: 3px;
+        // margin-left: 2vh;
+        // margin-bottom: 3px;
         letter-spacing: 1px;
       }
 
@@ -112,14 +113,11 @@
         position: relative;
       }
 
-      .health-dollar {
-        margin-left: 1vh;
-        margin-top: 2px;
-      }
+
 
       .health-insurance-amount {
-        margin-left: 4px;
-        margin-top: 0px;
+        // margin-left: 4px;
+        // margin-top: 0px;
         position: absolute;
         color: rgb(12, 12, 12);
         font-family: 'Nunito', sans-serif;
@@ -130,7 +128,9 @@
       .initiated {
         font-size: 9px;
         position: absolute;
-        margin-top: 2vh;
+        // margin-top: 2vh;
+        // padding-bottom: 8px;
+        padding-top: 6px;
         font-family: 'Nunito', sans-serif;
         color: rgb(141, 139, 139);
       }
@@ -138,7 +138,8 @@
       .initiated-car {
         font-size: 9px;
         position: absolute;
-        margin-top: 2vh;
+        // margin-top: 2vh;
+        padding-top: 6px;
         font-family: 'Nunito', sans-serif;
         color: rgb(141, 139, 139);
         margin-left: 2vh;
@@ -147,8 +148,8 @@
       #progressbarCar {
         overflow: hidden;
         /* color: $progress-color; */
-        padding-left: 0px;
-        margin-top: 0.5vh;
+        // padding-left: 0px;
+        // margin-top: 0.5vh;
         width: 25vh;
         margin-left: 3.2vh;
       }
@@ -168,8 +169,8 @@
         /* color: $progress-color; */
         width: 8px;
         height: 8px;
-        margin-left: 0px !important;
-        margin-top: 12%;
+        // margin-left: 0px !important;
+        // margin-top: 12%;
         z-index: 1;
       }
 
@@ -178,8 +179,8 @@
         /* color: $progress-color; */
         width: 8px;
         height: 8px;
-        margin-left: 32% !important;
-        margin-top: 12%;
+        // margin-left: 32% !important;
+        // margin-top: 12%;
         z-index: 1;
       }
 
@@ -188,8 +189,8 @@
         /* color: $progress-color; */
         width: 8px;
         height: 8px;
-        margin-right: 32% !important;
-        margin-top: 12%;
+        // margin-right: 32% !important;
+        // margin-top: 12%;
         z-index: 1;
       }
 
@@ -198,8 +199,8 @@
         // color: rgb(151, 149, 149, 0.651);
         width: 8px;
         height: 8px;
-        margin-right: 0px !important;
-        margin-top: 12%;
+        // margin-right: 0px !important;
+        // margin-top: 12%;
         z-index: 1;
       }
 

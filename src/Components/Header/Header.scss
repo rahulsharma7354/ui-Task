@@ -10,7 +10,7 @@
 
   .title-heading {
     font-family: 'Nunito', sans-serif;
-    margin-top: 2.5vh;
+    // margin-top: 2.5vh;
     color: rgb(39, 121, 244);
     position: absolute;
     font-weight: 700;
@@ -19,24 +19,29 @@
 
   .settings {
     display: inline-flex;
-    width: 50vh;
+    flex-direction: row;
+    width: 47vh;
+    
 
     .setting-icon {
       color: rgb(156, 156, 156);
+      
       // padding-right: 2vh;
-      margin-right: 2.5vh;
-      margin-top: 2vh;
+      // margin-right: 2.5vh;
+      // margin-top: 2vh;
     }
 
     .notification-bell {
       color: rgb(156, 156, 156);
-      margin-right: 2.5vh;
-      margin-top: 2vh;
-      margin-left: 18vh;
+      float: right;
+      // margin-right: 2.5vh;
+      // margin-top: 2vh;
+      // margin-left: 18vh;
     }
 
     .person-profile{
-      margin-top: 1.2vh;
+      float: right;
+      // margin-top: 1.2vh;
       height: 2rem;
       width: max-content;
       display: flex;
@@ -47,8 +52,8 @@
     .profile-name {
       width: max-content;
       height: 2rem;
-      margin: 6px;
-      padding: 0px 2rem 0px 1rem;
+      // margin: 6px;
+      // padding: 0px 2rem 0px 1rem;
       background-color: rgb(241, 248, 249);
       border-radius: 2rem;
       font-family: 'Nunito', sans-serif;
@@ -71,7 +76,7 @@
       width: 32px;
       border-radius: 100%;
       margin-left: -32px;
-      margin-right: 16px;
+      // margin-right: 16px;
       background-position: 50% 50%;
       background-size: cover;
     }

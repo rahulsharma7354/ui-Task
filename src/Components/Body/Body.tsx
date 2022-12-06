@@ -4,21 +4,21 @@ import { Icon } from '@iconify/react';
 export default class Body extends Component {
   render() {
     return (
-      <div className='body-container'>
+      <div className='body-container m'>
         <img className='insurance-heading' src="./Assets/insurance.png" alt="" />
         <div className="container-section-body">
           <div className='current-claim-section'>
-            <h4 className='claim-heading'>Current Claims</h4>
-            <p className='claim-status'>Track Your Claim Status</p>
+            <h4 className='claim-heading ms-4 ps-1 mt-3'>Current Claims</h4>
+            <p className='claim-status ms-4 ps-1'>Track Your Claim Status</p>
             <div className="progress-cards">
               <div className='health-claim'>
-                <Icon className='arrow-icon' icon="material-symbols:arrow-back-rounded" width={22} hFlip={true} />
-                <p className='health-claim-heading'>Health Insurance Claim</p>
-                <p className='health-number'>43782674567</p>
-                <Icon className='health-dollar' icon="twemoji:heavy-dollar-sign" width={20} height={18} />
-                <span className='health-insurance-amount'>2347.08</span>
+                <Icon className='arrow-icon mt-2 me-2 pe-1' icon="material-symbols:arrow-back-rounded" width={22} hFlip={true} />
+                <p className='health-claim-heading mt-2 '>Health Insurance Claim</p>
+                <p className='health-number mb-1 mt-4 ms-3'>43782674567</p>
+                <Icon className='health-dollar ms-2 ps-1' icon="twemoji:heavy-dollar-sign" width={20} height={18} />
+                <span className='health-insurance-amount ms-1'>2347.08</span>
                 <div className="progress-track">
-                <span className='initiated'>
+                <span className='initiated mt-2'>
                   Initiated
                 </span>
                   <ul id="progressbar">
@@ -37,13 +37,13 @@ export default class Body extends Component {
                 </div>
               </div>
               <div className='car-claim'>
-                <Icon className='arrow-icon' icon="material-symbols:arrow-back-rounded" width={22} hFlip={true} />
-                <p className='health-claim-heading'>Car Insurance Claim</p>
-                <p className='health-number'>7293749392002</p>
-                <Icon className='health-dollar' icon="twemoji:heavy-dollar-sign" width={20} height={18} />
-                <span className='health-insurance-amount'>2347.08</span>
+                <Icon className='arrow-icon mt-2 me-2 pe-1' icon="material-symbols:arrow-back-rounded" width={22} hFlip={true} />
+                <p className='health-claim-heading mt-2'>Car Insurance Claim</p>
+                <p className='health-number mb-1 mt-4 ms-3'>7293749392002</p>
+                <Icon className='health-dollar ms-2 ps-1' icon="twemoji:heavy-dollar-sign" width={20} height={18} />
+                <span className='health-insurance-amount ms-1'>2347.08</span>
                 <div className="progress-track-car">
-                <span className='initiated-car'>
+                <span className='initiated-car mt-2 '>
                   Initiated
                 </span>
                   <ul id="progressbarCar">
