@@ -8,7 +8,7 @@ export default class Body extends Component {
         <img className='insurance-heading' src="./Assets/insurance.png" alt="" />
         <div className="container-section-body">
           <div className='current-claim-section'>
-            <h4 className='claim-heading ms-4 ps-1 mt-3'>Current Claims</h4>
+            <h4 className='claim-heading ms-4 ps-1 mt-4'>Current Claims</h4>
             <p className='claim-status ms-4 ps-1'>Track Your Claim Status</p>
             <div className="progress-cards">
               <div className='health-claim'>
@@ -18,7 +18,7 @@ export default class Body extends Component {
                 <Icon className='health-dollar ms-2 ps-1' icon="twemoji:heavy-dollar-sign" width={20} height={18} />
                 <span className='health-insurance-amount ms-1'>2347.08</span>
                 <div className="progress-track">
-                <span className='initiated mt-2'>
+                <span className='initiated mt-2  '>
                   Initiated
                 </span>
                   <ul id="progressbar">
@@ -42,8 +42,8 @@ export default class Body extends Component {
                 <p className='health-number mb-1 mt-4 ms-3'>7293749392002</p>
                 <Icon className='health-dollar ms-2 ps-1' icon="twemoji:heavy-dollar-sign" width={20} height={18} />
                 <span className='health-insurance-amount ms-1'>2347.08</span>
-                <div className="progress-track-car">
-                <span className='initiated-car mt-2 '>
+                <div className="progress-track-car ms-2">
+                <span className='initiated-car mt-2  ms-2 ps-1'>
                   Initiated
                 </span>
                   <ul id="progressbarCar">

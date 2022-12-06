@@ -6,8 +6,8 @@ export default class DashBoardSection extends Component {
   render() {
     return (
         <div className="display-container px-3 d-flex flex-column ">
-          <div  className=' p-2 active-link'>
-          <Board28Filled id='active-icon' className='mb-2 mt-4 pt-1 mx-0'/>
+          <div  className='active-link ms-1 mb-2'>
+          <Board28Filled id='active-icon' className='mb-2 mt-4 pt-1 '/>
           <span className='active-icon-text  mt-2 pt-4 px-3 '> Dashboard</span>
           </div>
           <div className='p-2 dashboard-container'>
