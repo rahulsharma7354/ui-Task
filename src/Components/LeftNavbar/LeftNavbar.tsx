@@ -35,8 +35,8 @@ export default class DashBoardSection extends Component {
           <span className='icon-text px-4 mt-1  mx-3'>Support</span>
           </div>
           <div className='dashboard-bottom-section mt-5 pt-5'>
-            <h4 className='topup-heading'>Top Up</h4>
-            <p className='top-up-content mb-2'>Add money to your wallet</p>
+            <h4 className='topup-heading ms-2'>Top Up</h4>
+            <p className='top-up-content mb-2 ms-2'>Add money to your wallet</p>
           </div>
           <div className='add-money'>
             <img className='option mx-3 mt-2 pt-1' src="./Assets/dots.png" alt="" width={9} />
