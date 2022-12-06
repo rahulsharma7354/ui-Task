@@ -5,10 +5,17 @@ export default class Body extends Component {
   render() {
     return (
       <div className='body-container m'>
-        <img className='insurance-heading' src="./Assets/insurance.png" alt="" />
+        {/* <img className='insurance-heading' src="./Assets/insurance.png" alt="" /> */}
+        <div className='body-insurance-image'>
+          <div className='insurance-content pt-3 ps-4'>
+            <h1 className='heading-life'>Insurance that makes <br></br> your LIFE better</h1>
+            <p className='life-content'>Some great policies to safeguard <br></br>all your needs</p>
+          </div>
+
+        </div>
         <div className="container-section-body">
           <div className='current-claim-section'>
-            <h4 className='claim-heading ms-4 ps-1 mt-4'>Current Claims</h4>
+            <h4 className='claim-heading ms-4 ps-1 mt-3'>Current Claims</h4>
             <p className='claim-status ms-4 ps-1'>Track Your Claim Status</p>
             <div className="progress-cards">
               <div className='health-claim'>
@@ -71,7 +78,7 @@ export default class Body extends Component {
             </div>
           </div>
           <div className='activityfeeds-continer'>
-            <h4 className='activity-head mt-4 ms-4 mb-3'>Activity Feed</h4>
+            <h4 className='activity-head mt-3 ms-4 mb-3'>Activity Feed</h4>
             <div className='feeds-continer mb-1'>
               <img className='icon-right ms-4 mt-2 me-3 ms-4 mt-2 me-3' src="./Assets/Tick.png" alt="" width={80} />
               <div className='feed-details'>
@@ -107,7 +114,7 @@ export default class Body extends Component {
                 <p className='feed-date mt-3 pt-3'>30th July 2022</p>
               </div>
             </div>
-            <div className='feeds-continer mb-1'>
+            <div className='feeds-continer'>
               <img className='icon-right ms-4 mt-1 me-3' src="./Assets/Tick.png" alt="" width={80} />
               <div className='last-feed-details'>
                 <h4 className='feed-headings mt-2'>Requested Quote For Family</h4>

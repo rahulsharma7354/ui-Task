@@ -1,7 +1,32 @@
 .body-container {
-  height: 92vh;
+  height: 88vh;
   width: 124vh;
-
+ .body-insurance-image{
+  // background-color: blue;
+  height: 28.2vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid #efecec;
+  font-family: 'Nunito', sans-serif;
+  .insurance-content{
+    height: 24vh;
+    width: 115vh;
+    font-weight: 500;
+    background-color: #3494d4;
+    border-radius: 5px;
+    .heading-life{
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: white;
+    }
+    .life-content{
+      font-size: 1.1rem;
+      color: rgb(203, 216, 245);
+      font-weight: 400;
+    }
+  }
+ }
   .insurance-heading {
     width: 124vh;
     height: 28vh;
@@ -10,11 +35,10 @@
 
   .container-section-body {
     display: flex;
-
-
+    height: 55vh;
     .current-claim-section {
       width: 80vh;
-      height: 64vh;
+      height: 60vh;
       border-right: 2px solid #efecec;
 
       .claim-heading {
@@ -226,9 +250,7 @@
         z-index: 1;
       }
 
-      .progress-track {
-        // padding: 0 8%;
-      }
+
 
       #progressbarCar li:nth-child(2):after {
         margin-right: auto;
@@ -285,21 +307,20 @@
         display: flex;
         justify-content: space-evenly;
         width: 80vh;
-        height: 18vh;
+        height: 17vh;
 
         .lab-image {
           width: 20vh;
-          height: 18vh;
+          height: 17.5vh;
         }
 
         .doctor-image {
           width: 20vh;
-          height: 18vh;
+          height: 17.5vh;
         }
-
         .therapy-image {
           width: 20vh;
-          height: 18vh;
+          height: 17.5vh;
         }
       }
     }

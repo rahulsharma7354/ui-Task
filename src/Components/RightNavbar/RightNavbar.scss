@@ -37,16 +37,88 @@
     .carinsurance {
       width: 45vh;
       height: 20vh;
+      background-color: rgb(6, 8, 151);
+      color: white;
+      border-radius: 5px;
+      .main-insurance-heading{
+        font-size: 10px;
+      }
+      .insurance-number{
+        letter-spacing: 1px;
+      }
+      .insurance-dollar{
+        color: white;
+        width: 3vh;
+        height: 2.8vh;
+      }
+      .insurance-amount{
+        position: absolute;
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+      .insurance-date{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 500;
+      }
     }
 
     .healthcard-first {
       width: 45vh;
       height: 20vh;
+      background-color: rgb(124, 1, 85);
+      color: white;
+      border-radius: 5px;
+      .main-insurance-heading{
+        font-size: 10px;
+      }
+      .insurance-number{
+        letter-spacing: 1px;
+      }
+      .insurance-dollar{
+        color: white;
+        width: 3vh;
+        height: 2.8vh;
+      }
+      .insurance-amount{
+        position: absolute;
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+      .insurance-date{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 500;
+      }
     }
 
     .healthcard-second {
       width: 45vh;
       height: 20vh;
+      border-radius: 5px;
+      color: white;
+      background-color: rgb(12, 172, 124);
+      .main-insurance-heading{
+        font-size: 10px;
+      }
+      .insurance-number{
+        letter-spacing: 1px;
+      }
+      .insurance-dollar{
+        color: white;
+        width: 3vh;
+        height: 2.8vh;
+      }
+      .insurance-amount{
+        position: absolute;
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+      .insurance-date{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 500;
+      }
 
     }
   }
