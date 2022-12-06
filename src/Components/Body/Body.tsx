@@ -72,42 +72,42 @@ export default class Body extends Component {
           </div>
           <div className='activityfeeds-continer'>
             <h4 className='activity-head mt-4 ms-4 mb-3'>Activity Feed</h4>
-            <div className='feeds-continer'>
+            <div className='feeds-continer mb-1'>
               <img className='icon-right ms-4 mt-2 me-3 ms-4 mt-2 me-3' src="./Assets/Tick.png" alt="" width={80} />
               <div className='feed-details'>
                 <h4 className='feed-headings mt-3 mt-3'>Booked Doctor Consulation</h4>
                 <p className='feed-date mt-4 pt-3 '>3rd August 2022</p>
               </div>
             </div>
-            <div className='feeds-continer'>
+            <div className='feeds-continer mb-1'>
               <img className='icon-right ms-4 mt-1 me-3' src="./Assets/Tick.png" alt="" width={80} />
               <div className='feed-details'>
                 <h4 className='feed-headings mt-2'>Requested Insured Changes</h4>
                 <p className='feed-date mt-3 pt-3'>1rst August 2022</p>
               </div>
             </div>
-            <div className='feeds-continer'>
+            <div className='feeds-continer mb-1'>
               <img className='icon-right ms-4 mt-1 me-3' src="./Assets/Tick.png" alt="" width={80} />
               <div className='feed-details'>
                 <h4 className='feed-headings mt-2'>Raised Claim For #910256</h4>
                 <p className='feed-date mt-3 pt-3'>30th July 2022</p>
               </div>
             </div>
-            <div className='feeds-continer'>
+            <div className='feeds-continer mb-1'>
               <img className='icon-right ms-4 mt-1 me-3' src="./Assets/Tick.png" alt="" width={80} />
               <div className='feed-details'>
                 <h4 className='feed-headings mt-2'>Query For ACH Payment</h4>
                 <p className='feed-date mt-3 pt-3'>30th July 2022</p>
               </div>
             </div>
-            <div className='feeds-continer'>
+            <div className='feeds-continer mb-1'>
               <img className='icon-right ms-4 mt-1 me-3' src="./Assets/Tick.png" alt="" width={80} />
               <div className='feed-details'>
                 <h4 className='feed-headings mt-2'>Renewed Health Policy #..</h4>
                 <p className='feed-date mt-3 pt-3'>30th July 2022</p>
               </div>
             </div>
-            <div className='feeds-continer'>
+            <div className='feeds-continer mb-1'>
               <img className='icon-right ms-4 mt-1 me-3' src="./Assets/Tick.png" alt="" width={80} />
               <div className='last-feed-details'>
                 <h4 className='feed-headings mt-2'>Requested Quote For Family</h4>
